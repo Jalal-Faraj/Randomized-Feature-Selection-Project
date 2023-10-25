@@ -1,1 +1,2 @@
 # Randomized-Feature-Selection-Project
+This repository contains code and files that were written for the purpose of creating a randomized feature selection algorithm that chooses the best features from a large dataset containing many features (Pearson Correlation Coefficient, Forward/Backward Feature Selection are hard to implement on such datasets) in order to reduce computational time and complexity.
