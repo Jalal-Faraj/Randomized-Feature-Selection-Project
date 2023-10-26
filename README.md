@@ -1,2 +1,4 @@
 # Randomized-Feature-Selection-Project
 This repository contains code and files that were written for the purpose of creating a randomized feature selection algorithm that chooses the best features from a large dataset containing many features (Pearson Correlation Coefficient, Forward/Backward Feature Selection are hard to implement on such datasets) in order to reduce computational time and complexity.
+
+The Randomized Feature Selection Algorithm is in the "Randomized Forward Feature selection.ipynb" file, and it evaluates the randomly chosen features by running a simple NN algorithm on a small set of chemical engineering data and testing whether the algorithm learned more valuable insight from the additional features (this is done by comparing the model accuracy in the previous iteration to the current iteration (where new features were added)). Only when the model improves are the new features added.  
